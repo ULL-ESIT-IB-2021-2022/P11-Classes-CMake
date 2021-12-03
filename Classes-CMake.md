@@ -8,12 +8,8 @@ Los objetivos de esta práctica son que el alumnado:
 * Conozca la herramienta CMake y sepa usarla para construir sus programas ejecutables
 * Incluya en sus programas comentarios adecuados en el formato requerido por Doxygen
 * Profundice en el uso de funciones en sus programas.
-* Profundice sus conocimientos sobre depuración.
-
-
 * Aloje todo el código fuente de sus programas en repositorios privados de GitHub
 * Sepa depurar sus programas usando la interfaz de depuración del VSC
-
 
 
 ### Rúbrica de evaluacion de esta práctica
