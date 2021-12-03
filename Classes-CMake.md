@@ -43,13 +43,13 @@ El alumnado ha de acreditar que:
 [CMake](https://es.wikipedia.org/wiki/CMake)
 es lo que se conoce como un sistema de metaconstrucción. 
 No se utiliza para construir (generar, *build* en inglés) el programa ejecutable de una aplicación sino
-que genera archivos de proyecto nativos para la plataforma de destino. 
-Por ejemplo, CMake en Windows producirá una solución para Visual Studio; 
-en Linux producirá un fichero Makefile; 
-en macOS producirá un proyecto para XCode y así sucesivamente. 
-Eso es lo que la palabra meta significa: CMake construye sistemas de construcción 
+que produce ficheros de proyecto nativos para la plataforma de destino. 
+Por ejemplo, CMake en Windows generará una solución para Visual Studio; 
+en Linux generará un fichero Makefile; 
+en macOS generará un proyecto para XCode y así sucesivamente. 
+Eso es lo que la palabra *meta* indica: CMake construye sistemas de construcción 
 (*builders*). 
-La herramienta make es un sistema de construcción, posiblemente el más ubicuo.
+La herramienta `make` es un sistema de construcción, posiblemente el más común.
 
 Un proyecto basado en CMake siempre contiene un fichero `CMakeLists.txt`
 que describe cómo se estructura el proyecto, la lista de ficheros 
@@ -59,10 +59,10 @@ CMake leerá las instrucciones de ese fichero y producirá el resultado deseado.
 
 Una característica positiva de CMake es el llamado "out-of-source build". 
 Cualquier fichero requerido para la construcción final, incluyendo los ejecutables, 
-será almacenado en un directorio de construcción separado (usualmente llamado build/). 
+será almacenado en un directorio de construcción separado (habitualmente llamado `build/`). 
 Esto evita que el directorio de origen que contiene el código fuente se llene de 
 ficheros no deseados y hace que sea fácil volver a empezar: sólo hay que eliminar 
-el directorio destino de la compilación (directorio build) y listo.
+el directorio destino de la compilación (directorio `build`) y listo.
 
 CMake es una herramienta muy potente que admite multitud de opciones.
 En 
