@@ -20,7 +20,7 @@
 #include <iostream>
 #include <cstdlib>    // exit
 
-#include "fibonacci_sum.h"    
+#include "tools.h"    
 
 /** Muestra el modo de uso correcto del programa
  *  En caso de que el uso no sea el correcto, muestra el mensaje y finaliza
@@ -41,29 +41,4 @@ void Usage(int argc, char *argv[]) {
     std::cout << kHelpText << std::endl;
     exit(EXIT_SUCCESS);
   }
-}
-
-/** Devuelve el valor de la suma de todos los términos de valor par de la serie de
- *  Fibonacci menores que kLimit
- *
- *  @param[in] kLimit. Se suman los términos pares menores que kLimit
- *  @return La suma de los términos pares menores que kLimit
- */
-size_t FibonacciSum(const size_t kLimit) {
-  size_t second_to_last{0},  // Second to last term
-           last{1},          // Last term generated
-           new_term;         // New term of the serie
-  size_t long sum{0};        // Accumulated sum of the terms
-
-  do {
-    new_term = last + second_to_last;
-    if (new_term % 2 == 0) {
-      sum += new_term;
-    }
-    // Uncomment for debug: print each new term
-    // std::cout << "Term: " << new_term << std::endl;
-    second_to_last = last;
-    last = new_term;
-  } while (new_term < kLimit);
-	return sum;
 }
