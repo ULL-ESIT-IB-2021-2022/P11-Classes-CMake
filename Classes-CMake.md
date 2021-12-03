@@ -106,22 +106,20 @@ $ cmake ..
 $ make
 ```
 
-El comando `cmake`, usando el fichero de configuración, creará en el directorio `build` el fichero `Makefile`
+El comando `cmake`, usando el fichero de configuración `CMakeLists.txt`, creará en el directorio `build` el fichero `Makefile`
 que utiliza el comando `make` para construir la aplicación, cuyo programa binario `fibonacci_sum` se crea
 asimismo en el directorio `build`.
 
 Experimente con este fichero de configuración entregado, `CMakeLists.txt` para adaptarlo a cada uno
 de sus propios proyectos (ejercicios de la práctica).
 No es necesario en principio, que construya librerías propias para sus programas.
-La construcción de una librería se ha incluído en este ejemplo a efectos de ilustrar ese proceso.
+La construcción de una librería se ha incluído en este ejemplo con la finalidad de ilustrar ese proceso.
 
 ### Trabajo previo
-Antes de realizar los ejercicios de esta práctica, estudie detenidamente el Capítulo 8 (epígrafes 8.1-8.16) del
+Antes de realizar los ejercicios de esta práctica, estudie detenidamente el Capítulo 12 (epígrafes 12.1-12.15) del
 [tutorial learncpp](https://www.learncpp.com/cpp-tutorial/81-welcome-to-object-oriented-programming/).
 Muchos de los ejemplos de ese tutorial son los mismos que se utilizan en las clases teóricas de la asignatura,
 cuyo material debiera Ud. también estudiar.
-
-
 
 ### Ejercicios
 * Al realizar los ejercicios cree dentro de su repositorio de esta práctica un directorio diferente
