@@ -22,7 +22,7 @@ El alumnado ha de acreditar que:
 * Conoce los conceptos expuestos en el material de referencia de esta práctica.
 * Ha realizado todos los ejercicios propuestos, así como que es capaz de desarrollar otros de complejidad similar.
 * Es capaz de escribir un fichero CMakeLists.txt para automatizar el proceso de compilación de sus programas.
-* Los programas deben estructurarse en directorios diferentes para cada "proyecto" y hacer que cada uno de
+* Todos sus programas se estructuran en directorios diferentes para cada "proyecto" haciendo que cada uno de
   ellos contenga un fichero `CMakeLists.txt` con la configuración de despliegue del proyecto.
 * Todas las prácticas realizadas hasta la fecha se encuentran alojadas en repositorios de
 [GitHub](https://github.com/).
