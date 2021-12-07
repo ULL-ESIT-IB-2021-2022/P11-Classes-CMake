@@ -149,6 +149,9 @@ personas
 desarrollando. 
 * Utilice el depurador integrado de VSC para depurar los programas de modo que funcionen correctamente.
 * Todos estos programas han de tomar su entrada (si es que hay alguna) como parámetros pasados por línea de comandos.
+* Para cada una de las clases que se pide desarrollar, desarrolle también un programa cliente (el que
+contendrá la función *main()*) que declare objetos de la clase en cuestión y compruebe el correcto
+funcionamiento de los métodos de la clase.
 
 1. Desarrolle una clase `Persona` cuyos objetos han de contener al menos atributos para representar nombre,
 apellidos y la edad de la persona.
@@ -189,6 +192,36 @@ Incluya métodos *Area*, *Perimetro* y *Print* que permitan respectivamente calc
 círculo así como imprimir en pantalla la información relativa al círculo en cuestión.
 Incluya asimimsmo un método *EsInterior* que determine si un punto del espacio cartesiano `(x, y)` está o no
 dentro del círculo.
+
+6. Desarrolle una clase `Vector3D` para representar vectores en el espacio tridimensional.
+La clase contemplará métodos al menos para:
+* Imprimir en pantalla las componentes de un vector en un formato adecuado 
+* Sumar un par de vectores
+* Calcular el producto de un número real por un vector
+* Calcular el producto escalar de dos vectores
+* Calcular el módulo de un vector 
+* Normalizar un vector
+
+7. Desarrolle una clase `Calcula` que permita la realización de diferentes cálculos con números enteros.
+Incluya los siguientes métodos en la clase:
+* *Factorial* que permita calcular el factorial de un número
+* *Suma* que calcule la suma de los primeros `n` números: `1 + 2 + 3 + ... + n`.
+* *EsPrimo* que permita determinar si un determinado número es primo
+* *SonPrimosRelativos* que permita determinar si dos números son
+[mutuamente primos](https://en.wikipedia.org/wiki/Coprime_integers),
+es decir, si su único divisor común es el 1
+* *TablaMultiplicar* que imprima en pantalla la tabla de multiplicar de un determinado número
+* *TodasTablasMultiplicar* que imprima en un fichero todas las tablas de multiplicación entera para 1, 2, ..., 9.
+La función *main* del programa que usara esta clase podría contener sentencias como:
+```
+main() {
+  Calcula calcula; 
+  std::cout << calcula.Factorial(5) << std::endl; 
+  std::cout << calcula.Suma(100) << std::endl; 
+  std::cout << calcula.EsPrimo(13) << std::endl; 
+  std::cout << calcula.SonPrimosRelativos(13, 17) << std::endl; 
+}
+```
 
 6. La clase Fecha.
 
