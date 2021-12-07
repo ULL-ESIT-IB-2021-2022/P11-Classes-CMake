@@ -118,8 +118,8 @@ La construcción de una librería se ha incluído en este ejemplo con la finalid
 ### Trabajo previo
 Antes de realizar los ejercicios de esta práctica, estudie detenidamente el Capítulo 12 (epígrafes 12.1-12.15) del
 [tutorial learncpp](https://www.learncpp.com/cpp-tutorial/81-welcome-to-object-oriented-programming/).
-Muchos de los ejemplos de ese tutorial son los mismos que se utilizan en las clases teóricas de la asignatura,
-cuyo material debiera Ud. también estudiar.
+Muchos de los ejemplos de ese tutorial son los mismos que se utilizan en las clases de la asignatura,
+cuyo material (transparencias y códigos de ejemplo) debiera Ud. también estudiar.
 
 ### Ejercicios
 * Al realizar los ejercicios cree dentro de su repositorio de esta práctica un directorio diferente
@@ -146,8 +146,7 @@ fechas
         └── fechas.cc
 ```
 * Desarrolle cada ejercicio de forma incremental, probando cada una de las funciones que va Ud.
-desarrollando. Utilice el depurador de VSC para corregir cualquier tipo de error semántico que se produzca en
-cualquiera de sus desarrollos.
+desarrollando. 
 * Utilice el depurador integrado de VSC para depurar los programas de modo que funcionen correctamente.
 * Todos estos programas han de tomar su entrada (si es que hay alguna) como parámetros pasados por línea de comandos.
 
