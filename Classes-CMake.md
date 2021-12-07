@@ -183,8 +183,8 @@ entre dos puntos
 [punto medio](https://en.wikipedia.org/wiki/Midpoint)
 del segmento que une dos puntos
 
-5. Diseñe una clase `Circulo` que permita representar círculos utilizando como atributos el centro de la
-figura y el radio del círculo.
+5. Diseñe una clase `Circulo` que permita representar círculos utilizando como atributos el centro 
+y el radio del círculo.
 Incluya métodos *Area*, *Perimetro* y *Print* que permitan respectivamente calcular el área, el perímetro del
 círculo así como imprimir en pantalla la información relativa al círculo en cuestión.
 Incluya asimimsmo un método *EsInterior* que determine si un punto del espacio cartesiano `(x, y)` está o no
@@ -272,8 +272,8 @@ Las siguientes deben tomarse como especificaciones del programa a desarrollar:
   respectivamente la declaración y la definición de la clase.
 * La clase `Racional` incluirá al menos métodos para:
     * Crear objetos de tipo `Racional`. Se debe implementar un constructor por defecto y uno parametrizado.
-    * Escribir (a fichero o a pantalla) un objeto de tipo `Racional`.
-    * Leer (por teclado o desde fichero) un objeto de tipo `Racional`.
+    * Escribir un objeto de tipo `Racional`.
+    * Leer un objeto de tipo `Racional`.
     * Sumar dos objetos de tipo `Racional`.
     * Restar dos objetos de tipo `Racional`.
     * Multiplicar dos objetos de tipo `Racional`.
@@ -313,14 +313,6 @@ Modo de uso: ./racionales fichero_entrada fichero_salida
 fichero_entrada: Fichero de texto conteniendo líneas con un par de números racionales: `a/b c/d` separados por un espacio
 fichero_salida:  Fichero de texto que contendrá líneas con las operaciones realizadas: `a/b + c/d = n/m`
 ```
-
-4.
-5.
-6.
-7.
-8.
-9.
-10.
 
 ### Referencias
 * [CMake](https://es.wikipedia.org/wiki/CMake)
