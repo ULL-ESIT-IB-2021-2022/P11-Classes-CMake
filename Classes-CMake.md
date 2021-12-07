@@ -150,8 +150,46 @@ desarrollando.
 * Utilice el depurador integrado de VSC para depurar los programas de modo que funcionen correctamente.
 * Todos estos programas han de tomar su entrada (si es que hay alguna) como parámetros pasados por línea de comandos.
 
+1. Desarrolle una clase `Persona` cuyos objetos han de contener al menos atributos para representar nombre,
+apellidos y la edad de la persona.
+Incluya asimismo un método `Print()` que permita imprimir en pantalla la información de una instancia de la
+clase.
 
-1. La clase Fecha.
+2. Desarrolle una clase `Rectangulo` que contemple como atributos la anchura y altura del rectángulo.
+Incluya métodos que permitan calcular el área y el perímetro del rectángulo representado y un método
+*Display()* que permita mostrar la información correspondiente a un objeto rectánculo de la clase.
+
+3. Desarrolle una clase `CuentaBancaria` que contemple como atributos 
+* El número de la cuenta (20 dígitos)
+* El nombre del titular
+* El saldo de la cuenta
+Incluya asimismo al menos los siguientes métodos:
+* Un constructor que tome como parámetros el el número de cuenta, el titular y el saldo
+* *Depositar* que permita aumentar el saldo de la cuenta en una cierta cantidad
+* *Extraer* que permita retirar una cierta cantidad de dinero
+* *Mostrar* que permita mostrar los detalles de la cuenta
+* *Impuestos* que calcule un impuesto del 5% sobre el saldo de la cuenta
+
+4. Desarrolle una clase `Point2D` para representar puntos en el espacio bidimensional a través de sus
+coordenadas. 
+Incluya al menos los siguientes métodos:
+* *Show()* para mostrar en pantalla las coordenadas del punto
+* *Move* para cambiar las coordenadas del punto
+* *Distance* para calcular la 
+[distancia](https://www.mathwarehouse.com/algebra/distance_formula/index.php)
+entre dos puntos
+* *Middle* para calcular el 
+[punto medio](https://en.wikipedia.org/wiki/Midpoint)
+del segmento que une dos puntos
+
+5. Diseñe una clase `Circulo` que permita representar círculos utilizando como atributos el centro de la
+figura y el radio del círculo.
+Incluya métodos *Area*, *Perimetro* y *Print* que permitan respectivamente calcular el área, el perímetro del
+círculo así como imprimir en pantalla la información relativa al círculo en cuestión.
+Incluya asimimsmo un método *EsInterior* que determine si un punto del espacio cartesiano `(x, y)` está o no
+dentro del círculo.
+
+6. La clase Fecha.
 
 Desarrolle una clase `Fecha` que permita representar y gestionar fechas.
 Incorpore en la clase los miembros de datos y métodos que considere adecuados para la finalidad que se
@@ -167,7 +205,7 @@ Pruebe ./fechas --help para más información
 El programa deberá imprimir en el fichero de salida (tercer parámetro) las N (segundo parámetro) fechas cronológicamente posteriores a la
 introducida (primer parámetro) con una separación de un día entre fechas sucesivas.
 
-2. La clase Complejo.
+7. La clase Complejo.
 
 Todo
 [número complejo](https://es.wikipedia.org/wiki/N%C3%BAmero_complejo)
@@ -208,7 +246,7 @@ que imprimirían en pantalla los resultados de la suma y referencia de números 
 Incluya (discrecionalmente) cualesquiera otras operaciones que considere adecuadas como métodos en la clase
 `Complejo`.
 
-3. La clase Racional.
+8. La clase Racional.
 
 Un 
 [número racional](https://en.wikipedia.org/wiki/Rational_number)
