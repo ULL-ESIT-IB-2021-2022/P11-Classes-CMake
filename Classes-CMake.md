@@ -140,13 +140,13 @@ que se utilizará con `cmake`.
 Así pues, la estructura de directorios y sus contenidos correspondiente al primero de los ejercicios
 propuestos sería la siguiente:
 ```
-personas
+01-persona
     ├── build           // Directorio inicialmente vacío para alojar el programa ejecutable
     ├── CMakeLists.txt  // Fichero de configuración para cmake
     └── src             // Directorio contenedor del código fuente del ejercicio
         ├── persona.cc
         ├── persona.h
-        └── personas.cc
+        └── persona_main.cc
 ```
 * Desarrolle cada ejercicio de forma incremental, probando cada una de las funciones que va Ud.
 desarrollando. 
