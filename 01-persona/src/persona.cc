@@ -20,7 +20,7 @@
  * @brief constructor
  * @param[in] nombre: string con el nombre de la persona a crear
  */
-Persona::Persona(const std::string nombre) {
+Persona::Persona(const std::string& nombre) {
  nombre_ = nombre; 
 
  // std::cout << "Constructor persona ejecutado" << std::endl;

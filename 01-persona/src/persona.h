@@ -22,7 +22,7 @@
  */
 class Persona {
  public:
-  Persona(const std::string nombre);
+  Persona(const std::string& nombre);
  private:
   std::string nombre_{""};     /** Almacena el nombre de la persona */
 };
