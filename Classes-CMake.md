@@ -121,6 +121,9 @@ Antes de realizar los ejercicios de esta práctica, estudie detenidamente el Cap
 Muchos de los ejemplos de ese tutorial son los mismos que se utilizan en las clases de la asignatura,
 cuyo material (transparencias y códigos de ejemplo) debiera Ud. también estudiar.
 
+Ponga especial atención en estos ejercicios en seguir las normas de *Buenas prácticas* de programación a la
+hora de diseñar programas orientados a objetos que se indican en las transparencias de la asignatura.
+
 ### Ejercicios
 * Al realizar los ejercicios cree dentro de su repositorio de esta práctica un directorio diferente
 con nombre significativo (personas, rectangulos, circulos p. ej.) para cada uno de ellos 
@@ -157,6 +160,9 @@ funcionamiento de los métodos de la clase.
 apellidos y la edad de la persona.
 Incluya asimismo un método *Print()* que permita imprimir en pantalla la información de una instancia de la
 clase.
+
+Para este ejercicio se ha incluido un directorio `01-persona` que incluye un esqueleto básico para la clase a
+desarrollar así como un fichero `CMakeLists.txt` para su compilación.
 
 2. Desarrolle una clase `Rectangulo` que contemple como atributos la anchura y altura del rectángulo.
 Incluya métodos que permitan calcular el área y el perímetro del rectángulo representado y un método
