@@ -249,8 +249,6 @@ introducida (primer parámetro) con una separación de un día entre fechas suce
 * [CMake](https://es.wikipedia.org/wiki/CMake)
 * [Introduction to modern CMake for beginners](https://www.internalpointers.com/post/modern-cmake-beginner-introduction)
 * [Welcome to object-oriented programming - Tutorial learnCPP](https://www.learncpp.com/cpp-tutorial/81-welcome-to-object-oriented-programming/).
-* [Números complejos](https://es.wikipedia.org/wiki/N%C3%BAmero_complejo)
-* [Rational Number](https://en.wikipedia.org/wiki/Rational_number)
 *	[Class code and header files](https://www.learncpp.com/cpp-tutorial/89-class-code-and-header-files/)
 * [Header guards](https://www.learncpp.com/cpp-tutorial/header-guards/)
 * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
