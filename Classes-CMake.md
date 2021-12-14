@@ -229,7 +229,7 @@ main() {
 }
 ```
 
-6. La clase Fecha.
+8. La clase Fecha.
 
 Desarrolle una clase `Fecha` que permita representar y gestionar fechas.
 Incorpore en la clase los miembros de datos y métodos que considere adecuados para la finalidad que se
