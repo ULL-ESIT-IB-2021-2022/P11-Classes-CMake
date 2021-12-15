@@ -1,6 +1,6 @@
 # Práctica 11. Introducción a la Programación Orientada a Objetos. Clases. La herramienta CMake.
 
-# Factor de ponderación: 9
+# Factor de ponderación: 10
 
 ### Objetivos
 Los objetivos de esta práctica son que el alumnado:
