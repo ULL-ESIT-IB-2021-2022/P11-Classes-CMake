@@ -34,7 +34,7 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/build)
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
 # Debug and release flags
-set(CMAKE_CXX_FLAGS_DEBUG "-g -O0")
+set(CMAKE_CXX_FLAGS_DEBUG "-g -O0 -Wall -Wextra -Wpedantic -Weffc++")
 set(CMAKE_CXX_FLAGS_RELEASE "-O3")
 
 # tell cmake where to look for *.h files
@@ -57,8 +57,7 @@ target_link_libraries(fibonacci_sum tools)
 target_compile_features(fibonacci_sum PRIVATE cxx_std_14)
 
 # Add compile options to a target.
-target_compile_options(fibonacci_sum PRIVATE -Wall -Wextra -Wpedantic)
-
+target_compile_options(fibonacci_sum PRIVATE -Wall -Wextra -Wpedantic -Weffc++)
 
 ############################################################
 # Build doxygen from CMake script
