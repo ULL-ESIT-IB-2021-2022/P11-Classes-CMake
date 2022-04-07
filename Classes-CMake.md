@@ -217,7 +217,7 @@ Incluya los siguientes métodos en la clase:
 * *EsPrimo* que permita determinar si un determinado número es primo
 * *SonPrimosRelativos* que permita determinar si dos números son
 [mutuamente primos](https://en.wikipedia.org/wiki/Coprime_integers),
-es decir, si su único divisor común es el 1Práctica 11. Introducción a la Programación Orientada a Objetos. Clases. La herramienta CMake.
+es decir, si su único divisor común es el 1.
 * *TablaMultiplicar* que imprima en pantalla la tabla de multiplicar de un determinado número
 * *TodasTablasMultiplicar* que imprima en un fichero todas las tablas de multiplicación entera para 1, 2, ..., 9.
 La función *main* del programa que usara esta clase podría contener sentencias como:
